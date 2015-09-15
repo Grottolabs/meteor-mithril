@@ -1,7 +1,7 @@
 /**
  * Created by jakob on 13-09-2015.
  */
-reactive = function(controller) {
+m.reactive = function(controller) {
   return function(options) {
     var instance = {};
     var tracker  = Deps.autorun(function() {

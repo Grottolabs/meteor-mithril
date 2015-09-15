@@ -1,1 +1,1 @@
-**Mithril**
+Mithril for Meteor
