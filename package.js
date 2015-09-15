@@ -23,13 +23,10 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'client.browserify.js',
-    'reactive.js'
+    'functions.js'
   ], 'client');
 
-  api.export([
-    "m",
-    'reactive'
-  ], 'client')
+  api.export("m", 'client')
 
 });
 
